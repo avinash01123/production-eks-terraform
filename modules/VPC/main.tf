@@ -153,7 +153,7 @@ resource "aws_security_group" "eks-cluster-sg" {
     from_port   = 443
     to_port     = 443
     protocol    = "tcp"
-    cidr_blocks = ["0.0.0.0/0"] 
+    cidr_blocks = ["10.0.0.0/16"] # Allow inside VPC only
   }
 
   egress {

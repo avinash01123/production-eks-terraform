@@ -1,3 +1,4 @@
+#VPOC VARIABLES
 variable "cluster-name" {}
 variable "cidr-block" {}
 variable "vpc-name" {}
@@ -24,4 +25,3 @@ variable "private-rt-name" {}
 variable "eip-name" {}
 variable "ngw-name" {}
 variable "eks-sg" {}
-
