@@ -48,5 +48,4 @@ addons = [
     name    = "aws-ebs-csi-driver"
     version = "v1.46.0-eksbuild.1"
   }
-  # Add more addons as needed   
 ]
